@@ -585,8 +585,8 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>AuraGPT ile kouşmaya başlayın.</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>AuraGPT'ye bir soru sorun..</h2>
+                                <h1 className={styles.chatEmptyStateTitle}>AuraGPT</h1>
+                                <h2 className={styles.chatEmptyStateSubtitle}>AuraGPT'ye bir soru sorun...</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
