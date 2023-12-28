@@ -27,7 +27,7 @@
 name: Build and deploy a container to an Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name  # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME: 75c4608d-6457-599e-a6c7-c4365bc04454.azurewebsites.net  # set this to the name of your Azure Web App
 
 on:
   push:
